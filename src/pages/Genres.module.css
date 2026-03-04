@@ -1,0 +1,86 @@
+.filter {
+  position: fixed;
+  height: 100vmax;
+  width: 100vw;
+  top: 0;
+  background-color: #151515ad;
+  z-index: -2;
+}
+
+.categoryClass {
+  top: 160px;
+  font-weight: 800;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  position: relative;
+  display: block;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.categoryContainer {
+  width: 90%;
+  max-width: 1080px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 90%;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.genres {
+  width: auto;
+  flex-grow: 1;
+  margin: 15px;
+  padding: 9px 14px;
+  color: #000;
+  border: 0px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.genres:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.genres:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.card {
+  width: 200px;
+  height: 260px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+
+.imgs {
+  height: 220px;
+  width: 150px;
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 6px;
+  cursor: pointer;
+  transition: ease-in 0.15s;
+}
+.imgs:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+}

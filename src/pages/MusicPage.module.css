@@ -1,0 +1,38 @@
+.filter {
+  position: fixed;
+  height: 100vmax;
+  width: 100vw;
+  top: 0;
+  background-color: #151515d0;
+  z-index: -2;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.musicPagetitle {
+  font-weight: 800;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  display: block;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: -100px;
+}
+
+.frontLine {
+  padding: 20px;
+  text-shadow: 10px 5px 3px #000;
+}
+
+@media screen and (max-width: 900px) {
+}

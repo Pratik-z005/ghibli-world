@@ -1,0 +1,70 @@
+.filter {
+  position: fixed;
+  height: 100vmax;
+  width: 100vw;
+  top: 0;
+  background-color: #151515ad;
+  z-index: -2;
+}
+
+.bodyFlex {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 55%;
+  max-height: 60%;
+  height: auto;
+  min-height: 60%;
+  margin-top: 100px;
+  padding: 7px 10px;
+  background-color: #0000009d;
+  border: 5px solid #ffffffc6;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.inputBox {
+  width: 30%;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  bottom: 50px;
+  font-weight: 500;
+  background-color: #fff;
+  color: rgb(147, 145, 145);
+  display: flex;
+  align-items: center;
+}
+.input {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+}
+.input:focus {
+  outline: none;
+}
+
+.ghibliMsgContainer {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
+  .inputBox {
+    width: 300px;
+  }
+}

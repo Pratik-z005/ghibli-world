@@ -1,0 +1,49 @@
+.filter {
+  position: fixed;
+  height: 100vmax;
+  width: 100vw;
+  top: 0;
+  background-color: #151515ad;
+  z-index: -2;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  z-index: 5;
+}
+
+.boxes {
+  width: auto;
+  height: 300px;
+}
+
+.imgcontainer {
+  width: 200px;
+  height: 260px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+.imgcontainer .imgs {
+  height: 220px;
+  width: 150px;
+  margin: 16px;
+  margin-bottom: 0px;
+  padding: 6px;
+  cursor: pointer;
+  transition: ease-in 0.15s;
+}
+.imgcontainer .imgs:hover {
+  transform: scale(1.1);
+}
+
+.years {
+  font-size: 0.75rem;
+}

@@ -1,0 +1,71 @@
+.filter {
+  position: fixed;
+  height: 100vmax;
+  width: 100vw;
+  top: 0;
+  background-color: #151515ad;
+  z-index: -2;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  margin-top: 180px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  z-index: 5;
+}
+
+.card {
+  padding: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs {
+  width: 100px;
+  height: 110px;
+  margin: 10px 15px;
+  cursor: pointer;
+  transition: ease-in 0.1s;
+  box-shadow: 4px 3px 5px #000;
+}
+.imgs:hover {
+  transform: scale(1.03);
+}
+
+.chName {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.movie {
+  font-size: 0.8rem;
+}
+
+.heart {
+  width: auto;
+  background-color: transparent;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 5px 80px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    padding: 0px;
+  }
+}
