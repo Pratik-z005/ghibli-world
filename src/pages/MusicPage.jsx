@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import css from "./MusicPage.module.css";
+import music from "../assets/audio/ghibli_calm_bg_music.mp4";
 
 const MusicPage = () => {
   const audioRef = useRef(null);
@@ -29,7 +30,7 @@ const MusicPage = () => {
 
         <audio
           ref={audioRef}
-          src="src/assets/audio/ghibli_calm_bg_music.mp4"
+          src={music}
           loop
           autoPlay
         />
