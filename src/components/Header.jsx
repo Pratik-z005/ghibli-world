@@ -12,6 +12,10 @@ import { useState } from "react";
 // data!
 import { ghibliMovies } from "../movies/ghibliMovies";
 
+import icon from "../assets/photos/icon-66.jpg";
+import bgFinale from "../assets/photos/bg-finale.png";
+import avatar from "../assets/photos/black-burries.jpg";
+
 const Header = () => {
   const [search, setSearch] = useState("");
   const navigate = useNavigate();
@@ -59,7 +63,7 @@ const Header = () => {
             WORLD
             <img
               className={css.icon}
-              src="src/assets/photos/icon-66.jpg"
+              src={icon}
               height="50px"
               alt="S"
             />
@@ -85,7 +89,7 @@ const Header = () => {
 
       <header>
         <div className={css.heroimagedesktop}>
-          <img id={css.img} src="src/assets/photos/bg-finale.png" alt="" />
+          <img id={css.img} src={bgFinale} alt="" />
         </div>
       </header>
 
@@ -99,7 +103,7 @@ const Header = () => {
         </div>
         <img
           className={css.avatarImg}
-          src="src/assets/photos/black-burries.jpg"
+          src={avatar}
           alt="totoro"
         />
       </Link>
