@@ -1,16 +1,71 @@
-# React + Vite
+# 🌿 Ghibli World
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beautiful React movie app inspired by Studio Ghibli.
 
-Currently, two official plugins are available:
+Users can explore movies by genre and see filtered results instantly using dynamic routing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ What This Project Does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*  Shows different movie genres
+*  Opens movies based on selected genre
+*  Uses dynamic URL routing 🔄
+*  Shows “No movies available” if nothing matches
+*  Fast and smooth user experience ⚡
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Built With
+
+* React
+* React Router
+* JavaScript (ES6)
+* CSS Modules
+* Vite
+
+---
+
+## 📚 What I Practiced
+
+* Dynamic routing using `useParams()`
+* Filtering data based on URL
+* Conditional rendering
+* Component structuring
+* Debugging real React errors
+* Pushing project to GitHub
+
+---
+
+## 🚀 How To Run Locally
+
+```bash
+git clone https://github.com/Pratik-z005/ghibli-world.git
+cd ghibli-world
+npm install
+npm run dev
+```
+
+---
+
+## 🎯 Future Improvements
+
+* 🔍 Add search feature(more accurately)
+* 🎬 Add movie detail page(in more detail)
+* ❤️ Add favorites option(separately)
+* 🌙 Add more modes
+* 📱 Improve mobile design
+* 📱 Quizzes / Games
+* ⚙ Setting / functionality 
+
+---
+
+## 👨‍💻 Author
+
+**Pratik Kamble**
+Frontend Developer | React Learner | Future Full Stack Developer
+
+---
+
+⭐!
+
