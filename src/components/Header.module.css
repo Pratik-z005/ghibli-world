@@ -201,4 +201,8 @@ header {
   .menuIcon {
     z-index: 5;
   }
+  .avatarcontainer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
