@@ -191,7 +191,7 @@ export const ghibliMovies = [
     id: 18,
     title: "From Up on Poppy Hill",
     image:
-      "https://www.themoviedb.org/t/p/original/3MYV6YzpMJ3I6r67AbbeRgx4Qsg.jpg",
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/sharedimages/2024/05/from-up-on-poppy-hill-film-poster.jpg",
     year: 2011,
     description:
       "From Up on Poppy Hill is a 2011 Japanese animated romantic drama directed by Goro Miyazaki and produced by Studio Ghibli. Set in 1963 Yokohama during Japan’s postwar economic recovery, the story follows Umi Matsuzaki, a responsible high school girl who lives in a boarding house overlooking the harbor. She raises signal flags each morning in memory of her father, who died during the Korean War. At school, she becomes involved in a campaign to save the historic Latin Quarter clubhouse from demolition, working alongside Shun Kazama, a passionate student journalist. As their relationship deepens, they uncover unexpected truths about their families’ pasts that challenge their feelings. The film reflects themes of nostalgia, generational memory, rebuilding identity, and youthful determination. Through its warm atmosphere and historical backdrop, it portrays a nation and a generation striving to preserve their heritage while moving toward the future.",
@@ -246,7 +246,7 @@ export const ghibliMovies = [
     id: 23,
     title: "The Boy and the Heroin",
     image:
-      "https://www.themoviedb.org/t/p/original/b7KkO5HsGFi0Xdfz38nU8GLYUF5.jpg",
+      "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/192/2023/10/06110031/zbMRm6P6wPe9SQ6qJ7ZTAvCMS6e-scaled.jpg",
     year: 2023,
     description:
       "The Boy and the Heron is a 2023 Japanese animated fantasy drama written and directed by Hayao Miyazaki and produced by Studio Ghibli. The story follows Mahito, a young boy struggling with grief after the death of his mother during wartime. Relocating to the countryside with his father and new stepmother, he encounters a mysterious talking grey heron who leads him into a surreal alternate world filled with strange creatures and shifting realities. As Mahito journeys through this dreamlike realm, he confronts his sorrow, confusion, and longing for understanding. The film blends autobiographical elements with fantastical symbolism, exploring themes of loss, creation, inheritance, and the fragile boundary between imagination and reality. With its layered narrative and emotional depth, it stands as a reflective and mature work from Miyazaki.",
